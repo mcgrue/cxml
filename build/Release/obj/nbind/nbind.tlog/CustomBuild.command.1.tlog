@@ -1,0 +1,3 @@
+^E:\DEV\GRUE\CXML\NODE_MODULES\NBIND\SRC\SYMBOLS.TXT
+call mkdir "Release\obj\nbind\" 2>nul & set ERRORLEVEL=0 & copy /Y "..\node_modules\nbind\src\symbols.txt" "Release\obj\nbind\symbols.txt"
+if %errorlevel% neq 0 exit /b %errorlevel%
